@@ -22,7 +22,7 @@
 20,Pidgey,False,False,0,False,False
 21,Pidgeotto,False,False,0,False,False
 22,Pidgeot,False,False,0,False,False
-23,PidgeotMega Pidgeot,False,False,0,True,False
+23,PidgeotMega Pidgeot,False,False,0,False,False
 24,Rattata,False,False,0,False,False
 25,Raticate,False,False,0,False,False
 26,Spearow,False,False,0,False,False
@@ -161,7 +161,7 @@
 159,Dratini,False,False,0,False,False
 160,Dragonair,False,False,0,False,False
 161,Dragonite,False,False,0,False,False
-162,Mewtwo,True,True,1,True,True
+162,Mewtwo,True,False,1,True,True
 163,MewtwoMega Mewtwo X,True,True,1,True,True
 164,MewtwoMega Mewtwo Y,True,True,1,True,True
 165,Mew,False,False,0,False,False
@@ -261,7 +261,7 @@
 259,Magby,False,False,0,False,False
 260,Miltank,False,False,0,False,False
 261,Blissey,False,False,0,False,False
-262,Raikou,True,False,1,True,False
+262,Raikou,True,False,0,True,False
 263,Entei,True,False,0,True,False
 264,Suicune,True,False,1,True,False
 265,Larvitar,False,False,0,False,False
@@ -274,7 +274,7 @@
 272,Treecko,False,False,0,False,False
 273,Grovyle,False,False,0,False,False
 274,Sceptile,False,False,0,False,False
-275,SceptileMega Sceptile,False,True,1,False,True
+275,SceptileMega Sceptile,False,False,0,False,True
 276,Torchic,False,False,0,False,False
 277,Combusken,False,False,0,False,False
 278,Blaziken,False,False,0,False,False
@@ -305,14 +305,14 @@
 303,Ralts,False,False,0,False,False
 304,Kirlia,False,False,0,False,False
 305,Gardevoir,False,False,0,False,False
-306,GardevoirMega Gardevoir,False,True,0,False,False
+306,GardevoirMega Gardevoir,False,False,0,False,True
 307,Surskit,False,False,0,False,False
 308,Masquerain,False,False,0,False,False
 309,Shroomish,False,False,0,False,False
 310,Breloom,False,False,0,False,False
 311,Slakoth,False,False,0,False,False
 312,Vigoroth,False,False,0,False,False
-313,Slaking,False,True,0,False,True
+313,Slaking,False,True,0,False,False
 314,Nincada,False,False,0,False,False
 315,Ninjask,False,False,0,False,False
 316,Shedinja,False,False,0,False,False
@@ -332,7 +332,7 @@
 330,Aron,False,False,0,False,False
 331,Lairon,False,False,0,False,False
 332,Aggron,False,False,0,False,False
-333,AggronMega Aggron,False,False,0,False,True
+333,AggronMega Aggron,False,False,0,False,False
 334,Meditite,False,False,0,False,False
 335,Medicham,False,False,0,False,False
 336,MedichamMega Medicham,False,False,0,False,False
@@ -365,7 +365,7 @@
 363,Cacturne,False,False,0,False,False
 364,Swablu,False,False,0,False,False
 365,Altaria,False,False,0,False,False
-366,AltariaMega Altaria,False,False,1,False,False
+366,AltariaMega Altaria,False,False,0,False,False
 367,Zangoose,False,False,0,False,False
 368,Seviper,False,False,0,False,False
 369,Lunatone,False,False,0,False,False
@@ -408,17 +408,17 @@
 406,Bagon,False,False,0,False,False
 407,Shelgon,False,False,0,False,False
 408,Salamence,False,False,0,False,False
-409,SalamenceMega Salamence,False,True,1,True,True
+409,SalamenceMega Salamence,False,True,1,False,True
 410,Beldum,False,False,0,False,False
 411,Metang,False,False,0,False,False
 412,Metagross,False,False,0,False,False
-413,MetagrossMega Metagross,False,False,1,False,True
+413,MetagrossMega Metagross,False,False,1,True,True
 414,Regirock,True,False,0,True,False
-415,Regice,True,False,0,True,False
-416,Registeel,True,False,1,True,False
-417,Latias,True,True,1,True,False
+415,Regice,True,False,1,True,True
+416,Registeel,True,False,0,True,False
+417,Latias,True,False,0,True,True
 418,LatiasMega Latias,True,True,1,True,True
-419,Latios,True,False,1,True,False
+419,Latios,True,False,1,False,False
 420,LatiosMega Latios,True,True,1,True,True
 421,Kyogre,True,True,1,True,True
 422,KyogrePrimal Kyogre,True,True,1,True,True
@@ -429,8 +429,8 @@
 427,Jirachi,True,False,1,True,False
 428,DeoxysNormal Forme,True,False,0,True,False
 429,DeoxysAttack Forme,True,False,0,True,False
-430,DeoxysDefense Forme,True,False,1,True,False
-431,DeoxysSpeed Forme,True,False,1,False,True
+430,DeoxysDefense Forme,True,False,1,True,True
+431,DeoxysSpeed Forme,True,False,0,True,True
 432,Turtwig,False,False,0,False,False
 433,Grotle,False,False,0,False,False
 434,Torterra,False,False,0,False,False
@@ -492,12 +492,12 @@
 490,Spiritomb,False,False,0,False,False
 491,Gible,False,False,0,False,False
 492,Gabite,False,False,0,False,False
-493,Garchomp,False,False,0,True,False
+493,Garchomp,False,False,0,False,False
 494,GarchompMega Garchomp,False,True,1,False,True
 495,Munchlax,False,False,0,False,False
 496,Riolu,False,False,0,False,False
 497,Lucario,False,False,0,False,False
-498,LucarioMega Lucario,False,False,0,True,True
+498,LucarioMega Lucario,False,False,0,False,False
 499,Hippopotas,False,False,0,False,False
 500,Hippowdon,False,False,0,False,False
 501,Skorupi,False,False,0,False,False
@@ -526,7 +526,7 @@
 524,Mamoswine,False,False,0,False,False
 525,Porygon-Z,False,False,0,False,False
 526,Gallade,False,False,0,False,False
-527,GalladeMega Gallade,False,False,0,False,False
+527,GalladeMega Gallade,False,False,0,False,True
 528,Probopass,False,False,0,False,False
 529,Dusknoir,False,False,0,False,False
 530,Froslass,False,False,0,False,False
@@ -536,23 +536,23 @@
 534,RotomFrost Rotom,False,False,0,False,False
 535,RotomFan Rotom,False,False,0,False,False
 536,RotomMow Rotom,False,False,0,False,False
-537,Uxie,True,False,1,False,False
+537,Uxie,True,False,0,True,True
 538,Mesprit,True,False,1,True,False
-539,Azelf,True,False,1,True,False
+539,Azelf,True,False,0,True,False
 540,Dialga,True,True,1,True,True
 541,Palkia,True,True,1,True,True
-542,Heatran,True,True,1,True,False
+542,Heatran,True,False,1,True,False
 543,Regigigas,True,False,0,True,True
 544,GiratinaAltered Forme,True,True,1,True,True
 545,GiratinaOrigin Forme,True,True,1,True,True
-546,Cresselia,False,True,1,False,True
+546,Cresselia,False,False,0,False,True
 547,Phione,False,False,0,False,False
-548,Manaphy,False,True,1,True,True
-549,Darkrai,True,False,1,True,True
-550,ShayminLand Forme,True,True,1,True,True
-551,ShayminSky Forme,True,True,1,True,True
+548,Manaphy,False,False,1,False,False
+549,Darkrai,True,False,0,True,True
+550,ShayminLand Forme,True,False,1,False,False
+551,ShayminSky Forme,True,False,0,True,False
 552,Arceus,True,True,1,True,True
-553,Victini,True,True,1,True,True
+553,Victini,True,False,1,True,True
 554,Snivy,False,False,0,False,False
 555,Servine,False,False,0,False,False
 556,Serperior,False,False,0,False,False
@@ -695,28 +695,28 @@
 693,Durant,False,False,0,False,False
 694,Deino,False,False,0,False,False
 695,Zweilous,False,False,0,False,False
-696,Hydreigon,False,True,1,False,True
+696,Hydreigon,False,True,1,False,False
 697,Larvesta,False,False,0,False,False
 698,Volcarona,False,False,0,False,False
-699,Cobalion,True,False,1,True,True
+699,Cobalion,True,False,0,True,False
 700,Terrakion,True,False,0,True,False
-701,Virizion,True,False,1,True,False
-702,TornadusIncarnate Forme,True,False,1,True,False
-703,TornadusTherian Forme,True,True,1,True,True
-704,ThundurusIncarnate Forme,True,False,1,True,False
+701,Virizion,True,False,0,True,True
+702,TornadusIncarnate Forme,True,False,0,True,False
+703,TornadusTherian Forme,True,False,0,True,False
+704,ThundurusIncarnate Forme,True,False,0,True,False
 705,ThundurusTherian Forme,True,False,0,True,False
 706,Reshiram,True,True,1,True,True
 707,Zekrom,True,True,1,True,True
-708,LandorusIncarnate Forme,True,True,1,True,True
-709,LandorusTherian Forme,True,False,0,False,False
+708,LandorusIncarnate Forme,True,False,1,False,False
+709,LandorusTherian Forme,True,False,1,True,False
 710,Kyurem,True,True,1,True,True
 711,KyuremBlack Kyurem,True,True,1,True,True
 712,KyuremWhite Kyurem,True,True,1,True,True
-713,KeldeoOrdinary Forme,False,False,0,False,True
-714,KeldeoResolute Forme,False,False,0,False,True
-715,MeloettaAria Forme,False,False,0,True,True
-716,MeloettaPirouette Forme,False,True,0,True,True
-717,Genesect,False,True,1,False,False
+713,KeldeoOrdinary Forme,False,False,0,False,False
+714,KeldeoResolute Forme,False,False,0,False,False
+715,MeloettaAria Forme,False,False,1,False,True
+716,MeloettaPirouette Forme,False,False,0,False,True
+717,Genesect,False,False,1,False,False
 718,Chespin,False,False,0,False,False
 719,Quilladin,False,False,0,False,False
 720,Chesnaught,False,False,0,False,False
@@ -738,7 +738,7 @@
 736,Pyroar,False,False,0,False,False
 737,Flabébé,False,False,0,False,False
 738,Floette,False,False,0,False,False
-739,Florges,False,False,0,False,False
+739,Florges,False,False,0,False,True
 740,Skiddo,False,False,0,False,False
 741,Gogoat,False,False,0,False,False
 742,Pancham,False,False,0,False,False
@@ -750,7 +750,7 @@
 748,Honedge,False,False,0,False,False
 749,Doublade,False,False,0,False,False
 750,AegislashBlade Forme,False,False,0,False,False
-751,AegislashShield Forme,False,False,0,False,False
+751,AegislashShield Forme,False,False,0,False,True
 752,Spritzee,False,False,0,False,False
 753,Aromatisse,False,False,0,False,False
 754,Swirlix,False,False,0,False,False
@@ -775,7 +775,7 @@
 773,Carbink,False,False,0,False,False
 774,Goomy,False,False,0,False,False
 775,Sliggoo,False,False,0,False,False
-776,Goodra,False,False,0,False,True
+776,Goodra,False,False,1,False,True
 777,Klefki,False,False,0,False,False
 778,Phantump,False,False,0,False,False
 779,Trevenant,False,False,0,False,False
@@ -790,12 +790,12 @@
 788,Bergmite,False,False,0,False,False
 789,Avalugg,False,False,0,False,False
 790,Noibat,False,False,0,False,False
-791,Noivern,False,False,0,False,True
+791,Noivern,False,False,0,False,False
 792,Xerneas,True,True,1,True,True
 793,Yveltal,True,True,1,True,True
 794,Zygarde50% Forme,True,False,0,True,True
-795,Diancie,True,False,0,True,False
+795,Diancie,True,False,1,True,True
 796,DiancieMega Diancie,True,True,1,True,True
-797,HoopaHoopa Confined,True,False,0,True,False
+797,HoopaHoopa Confined,True,False,1,True,True
 798,HoopaHoopa Unbound,True,True,1,True,True
-799,Volcanion,True,True,0,True,True
+799,Volcanion,True,True,1,False,False
