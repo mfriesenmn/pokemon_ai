@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <Title>Legendary Status</Title>
+        <Title>Primary Type</Title>
 
     </head>
 
@@ -62,13 +62,13 @@
                     <div class="col-md-5">
                         <br><br>
                 
-                    <p> After running each model 50 times, on average the Random Forest model has the highest average model accuracy between all models. This has not been proving based on statistical significance so that would be something we would look further into if time permitted.
+                    <p> Although all models performed much worse on predicting Primary Type, after running each model 50 times, on average the Random Forest model has the highest average model accuracy between all models. This has not been proven based on statistical significance so that would be something we would look further into if time permitted.
                     </p>
                 </div>
                 <div class="col-md-5">
                     <br><br>
             
-                <p> Looking into our last iteration across each model, we broke down are test set into legendary and non-legendary status to understand if a model was more accurate at predicting legendary or failing to predict legendary (false positive). All models were extremely accurate in identifying non-legendary pokemon correctly. KNN had the worst accuracy (66%) of correctly identiying legendary pokemon
+                <p> Looking into our last iteration across each model, we broke down our test set by Primary Type to understand if a model was more accurate at predicting certain types of Pokemon. Random Forest seemed to predict several types better than the other models (and better on average), including: Dark, Fighting, Grass, Ice, Poison, and Water. Fire and Psychic Type Pokemon were more consistent across models, although still only about 15% accurate. With a larger dataset it might be possible to do better, although this assumes there is an underlying logic to a Pokemon's stats compared to their Type.
                 </p>
             </div>
             </div>
