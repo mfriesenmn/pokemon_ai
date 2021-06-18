@@ -103,7 +103,7 @@
                      and there are a number of confounding variables and significant exceptions to the trends.
                       For example, psychic types generally take after the trope of 
                       "<a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/GlassCannon">Glass Cannons</a>", of which the iconic Kadabra and 
-                      Alakazam are archetypal examples - comparatively high special attack, and comparatively very high defense or HP. 
+                      Alakazam are archetypal examples - comparatively high special attack, and very low defense and HP as a percentage of overall stats. 
                       The pokemon Wobbuffet, however, is a psychic type pokemon whose theme is deception and counterattack, and it has an 
                       exceptionally high hit point and defense stats. With only a few prominent patterns, such as steel and rock types generally 
                       having high defense, there were not enough consistent patterns of stat distributions to make any conclusions on the 
@@ -115,9 +115,11 @@
 			
 			<p>Even assumptions about the status of pokemon as legendary or not is more complicated than originally thought. Legendary pokemon have a stat total average of 630, which accounts for 41 of the 800 entries in the data set. However, there are 65 entries for pokemon that are specifically designated as legendary. Many pokemon categorized as legendary, including the original three "Legendary Birds", Articuno, Zapdos, and Moltres, have stat totals of 580 or below, while some pokemon, such as Slaking, which is literally a sloth, has a stat total of 670 (offset slightly by how it spends every other turn sleeping in battle). As well, most Mega versions of pokemon, legendary or not, have stat totals in excess of 630, and many legendary pokemon have Mega forms. So while stat totals alone are not a reliable predictor of Legendary status, other patterns of stat distribution might be. This remains to be determined.</p>
 			<p>There is another category called 'Mythical' which are exceptionally rare, some even only available ingame through limited-time promotions, such as Mew or Celebi. It is ambiguous as to whether or not mythical pokemon count as legendary or not. <a href="https://bulbapedia.bulbagarden.net/wiki/Legendary_Pok%C3%A9mon">See the fan wiki page</a>.</p>
+			<p>As an aside, in addition to types and legendary status, each pokemon has a "category" that has no mechanical importance and is purely for <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/FlavorText">flavor</a>. Vulpix, which is a fox, has the category of "Fox Pokemon". There is a single pokemon, Arcanine, which has a category of "Legendary Pokemon" but it is not actually legendary.</p>
 			
 			<h1>Conclusion</h1>
 			<p>After examining various statistical models, we came to the conclusion that the machine learning algorithms would have limited ability to predict pokemon types based on provided stats. Acknowledging this limitation, we applied the models anyway as a practice of concept with the expectation that we would find very low accuracy with the models.</p>
+			<p>The status of a pokemon being legendary or not, however, was much more strongly correlated with stats and additionally had a high correlation with the pokedex number (a literal numberal indexing of all unique pokemon) as legendary pokemon were generally at the very end of the pokedex range for each generation. Generation 1, for example, had 5 legendary pokemon and comprised of the pokedex numbers 1 through 151; the legendary pokemon are 144, 145, 146, 150, and 151.</p>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
